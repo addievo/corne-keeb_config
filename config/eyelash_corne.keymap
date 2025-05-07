@@ -56,7 +56,7 @@
         COLEMAK {
             display-name = "COLEMAK";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp F           &kp P  &kp B                              &kp UP                &kp J      &kp L  &kp U          &kp Y    &kp MINUS  &kp BSPC
+&kp ESCAPE  &kp Q  &kp W  &kp F           &kp P  &kp B                              &kp UP                &kp J      &kp L  &kp U          &kp Y    &kp MINUS  &kp DEL
 &kp TAB     &kp A  &kp R  &kp S           &kp T  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &kp N  &kp E          &kp I    &kp O      &kp ENTER
 &kp LCTRL   &kp X  &kp C  &kp D           &kp V  &kp Z       &kp SPACE              &kp DOWN              &kp K      &kp H  &kp COMMA      &kp DOT  &kp SLASH  &kp RIGHT_ALT
                           &kp LEFT_SHIFT  &mo 1  &kp K_BACK                                               &kp SPACE  &mo 2  &kp RIGHT_GUI
