@@ -50,12 +50,12 @@ layers:
   - SYMBOL
   - RIGHT GUI
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
+  - {t: '3', s: '#'}
   - Q
   - W
   - E
   - R
-  - T
   - '&td0'
   - Y
   - U
@@ -63,12 +63,12 @@ layers:
   - O
   - P
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '5', s: '%'}
   - A
   - S
   - D
   - F
-  - G
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -79,11 +79,11 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
+  - {t: '6', s: ^}
+  - {t: Z, h: X}
   - C
   - V
-  - B
+  - G
   - N
   - {t: '$$mdi:transfer$$', type: trans}
   - N
@@ -93,16 +93,16 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - SYMBOL
   - RIGHT WIN
   NUMBER:
   - '~'
-  - '&td0'
-  - '&td0'
-  - '&td0'
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - '&bl BL_TOG'
   - '&td0'
   - '&td0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -150,10 +150,10 @@ layers:
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
@@ -164,8 +164,8 @@ layers:
   - {t: COLEMAK, h: toggle}
   - $$mdi:bluetooth-off$$
   - $
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - '%'
+  - ^
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
