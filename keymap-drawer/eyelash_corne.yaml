@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - T
-  - Y
+  - '&td0'
   - Y
   - U
   - I
@@ -69,7 +69,7 @@ layers:
   - D
   - F
   - G
-  - H
+  - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - H
