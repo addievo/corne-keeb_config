@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - SYMBOL
-  - RIGHT GUI
+  - {t: RIGHT GUI, h: Fn}
   QWERTY:
   - $$mdi:keyboard-tab$$
   - {t: '3', s: '#'}
@@ -244,4 +244,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
