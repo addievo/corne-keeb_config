@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - OUT BLE
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -78,7 +78,7 @@ layers:
   - '6'
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - OUT USB
   - RGB OFF
   - RGB ON
   - RGB BRD
