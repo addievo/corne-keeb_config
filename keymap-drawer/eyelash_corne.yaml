@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   COLEMAK:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -12,9 +12,9 @@ layers:
   - L
   - U
   - Y
-  - '&td0'
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:keyboard-tab$$
   - A
   - R
   - S
@@ -28,8 +28,8 @@ layers:
   - E
   - I
   - O
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
   - X
   - C
   - D
@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: COLEMAK, h: toggle}
+  - BACK
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: NUMBER, h: toggle}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
