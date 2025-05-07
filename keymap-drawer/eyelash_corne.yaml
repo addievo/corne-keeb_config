@@ -13,7 +13,7 @@ layers:
   - U
   - Y
   - {t: '-', s: _}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - A
   - R
