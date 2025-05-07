@@ -34,13 +34,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        mt: mod_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -63,10 +56,10 @@
         COLEMAK {
             display-name = "COLEMAK";
             bindings = <
-&kp ESCAPE  &kp Q           &kp W           &kp F             &kp P        &kp B                                 &kp UP                &kp J        &kp L        &kp U              &kp Y            &kp MINUS        &kp DEL
-&kp TAB     &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LCTRL T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &mt RCTRL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp ENTER
-&kp LCTRL   &kp X           &kp C           &kp D             &kp V        &kp Z          &kp SPACE              &kp DOWN              &kp K        &kp H        &kp COMMA          &kp DOT          &kp SLASH        &kp RIGHT_ALT
-                                            &kp LEFT_SHIFT    &mo 2        &kp BACKSPACE                                               &lt 4 SPACE  &mo 3        &kp RIGHT_GUI
+&kp ESCAPE  &kp Q           &kp W           &kp F             &kp P        &kp B                                 &kp UP                &kp J      &kp L        &kp U              &kp Y            &kp MINUS        &kp DEL
+&kp TAB     &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LCTRL T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &mt RCTRL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp ENTER
+&kp LCTRL   &kp X           &kp C           &kp D             &kp V        &kp Z          &kp SPACE              &kp DOWN              &kp K      &kp H        &kp COMMA          &kp DOT          &kp SLASH        &kp RIGHT_ALT
+                                            &kp LEFT_SHIFT    &mo 2        &kp BACKSPACE                                               &kp SPACE  &mo 3        &kp RIGHT_GUI
             >;
 
             // sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
