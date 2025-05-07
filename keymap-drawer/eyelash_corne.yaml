@@ -29,7 +29,7 @@ layers:
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - X
   - C
   - D
@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
   - {t: COLEMAK, h: toggle}
   - BACK
   - $$mdi:keyboard-space$$
   - {t: NUMBER, h: toggle}
-  - $$mdi:apple-keyboard-control$$
+  - RIGHT GUI
   NUMBER:
   - '~'
   - '&td0'
